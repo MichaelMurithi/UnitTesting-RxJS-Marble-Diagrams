@@ -1,19 +1,28 @@
 const { interval } = require('rxjs');
-const { share } = require('rxjs/operators');
+/**
 
-const log = console.log;
+ * The producer creates and activates the observable
+ * Starts emiting values upon subscription
+ * All subscribers get their copy of values
+ * Usually unicast (one subscriber per producer)
+ * Subscribers do not share producers among themselves
+ * Eg created though: Of, from, interval and timer operators
+    Real-life: Watching a pre-recorder hockey game;
 
+*/
 // source observable
 const source = interval(1000);
 
-setTimeout(function() {
-  // 1st subscriber after 2 seconds
-  log('subscriber1' + ' joined after: ' + 2000 + ' seconds');
-  source.subscribe(s => log('subscriber1', s + 1, 'seconds'));
+console.log('------------- A demo of viewers downloading a past hockey game -------------');
 
-  // 2nd Subscriber after 5 Seconds
+setTimeout(function() {
+  // 1st Viewer after 2 seconds
+  console.log('Martin Fujacek' + ' downloaded at: ' + 2 + ' seconds');
+  source.subscribe(s => console.log('Martin Fujacek is watching ', s + 1, 'seconds'));
+
+  // 2nd Viewer after 5 Seconds
   setTimeout(function() {
-    log('subscriber2' + ' joined after: ' + 5000 + ' seconds');
-    source.subscribe(s => log('subscriber2', s + 1, 'seconds'));
+    console.log('Michal Furinda' + ' downloaded at: ' + 5 + ' seconds');
+    source.subscribe(s => console.log('Michal Furinda is watching ', s + 1, 'seconds'));
   }, 5000);
 }, 2000);

@@ -1,8 +1,6 @@
 # ✨ Welcome to Unit Testing RxJS with Marble Diagrams
 
-Welcome to `Unit Testing RxJS with Marble Diagrams` course excercise material portal. Please watch [Unit Testing RxJS with Marble Diagrams](https://app.pluralsight.com/library/courses/unit-testing-rxjs-marble-diagrams/table-of-contents) course in pluralsight.
-
-👉 https://app.pluralsight.com/library/courses/unit-testing-rxjs-marble-diagrams/table-of-contents
+Welcome to `Unit Testing RxJS with Marble Diagrams` 
 
 ## 💻 Angulr App
 
@@ -20,7 +18,7 @@ Welcome to `Unit Testing RxJS with Marble Diagrams` course excercise material po
 
 [Marble diagrams](https://rupeshtiwari.com/category/rxjs/marble-diagrams/) enables you to understand the behavior of RxJS observables and operators visually. It also helps to write unit test for asynchronous code in synchronous manner want to learn more please watch my course till the end.
 
-## 💼 What will you get out of this course
+## 💼 What will you get out in this repo
 
 - ✅ [Building blocks of RxJS](https://www.youtube.com/watch?v=0xwqbWgyfVs&list=PLZed_adPqIJrSTI1JeTIOCtqQNDDO44OF)
 
@@ -49,9 +47,7 @@ Welcome to `Unit Testing RxJS with Marble Diagrams` course excercise material po
 - To run the angular app please run command `npm start`
 - To run unit tests please run command `npm test`
 
-## 📣 Need help
 
-If you find any issues please post a comment to this article [UnitTesting-RxJS-Marble-Diagrams Problem Solver](https://rupeshtiwari.com/unittesting-rxjs-marble-diagrams-problem-solver/) and I will reply with any updates to my github repository.
 Thanks and happy coding 😃
 
 ## 💯 This Git Repostiory is maintained

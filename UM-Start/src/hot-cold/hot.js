@@ -22,6 +22,6 @@ setTimeout(function() {
   // 2nd Subscriber after 5 Seconds
   setTimeout(function() {
     console.log('Michal Furinda' + ' joined after: ' + 5 + ' seconds');
-    source.subscribe(s => console.log('Martin Fujacek is watching ', s + 1, 'seconds'));
+    source.subscribe(s => console.log('Michal Fujacek is watching ', s + 1, 'seconds'));
   }, 5000);
 }, 2000);

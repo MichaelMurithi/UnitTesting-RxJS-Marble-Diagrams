@@ -39,7 +39,7 @@ describe('can support observable data mocking', () => {
 
     const $result = searchBook($title);
 
-    const $expected = cold('--b--', {
+    const $expected = cold('--b--x', {
       b: { author: 'Bill Gates', libraryID: 1254, title: 'The Road Ahead' }
     });
 

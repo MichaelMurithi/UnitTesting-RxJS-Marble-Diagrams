@@ -6,8 +6,8 @@ const { interval } = require('rxjs');
  * All subscribers get their copy of values
  * Usually unicast (one subscriber per producer)
  * Subscribers do not share producers among themselves
- * Eg created though: Of, from, interval and timer operators
-    Real-life: Watching a pre-recorder hockey game;
+ * Eg created through: Of, from, interval and timer operators
+    Real-life: Watching a pre-recorded hockey game;
 
 */
 // source observable
